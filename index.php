@@ -14,12 +14,13 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <?php include "inc/nav.html" ?>
 
-    <div class="container-fluid" id="firstbox">
-      <h1>Test Title</h1>
+    <div class="container-fluid" style="height: 2000px;">
+      <p>wtf is this shit</p>
     </div>
-    <?php include "inc/footer.html";?>
+
+    <?php include "inc/footer.html" ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

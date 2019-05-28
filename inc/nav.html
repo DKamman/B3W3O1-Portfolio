@@ -1,0 +1,25 @@
+<div class="navbar sticky-top navbar-expand-lg">
+  <a class="navbar-brand" href="#">Sticky top
+    <img src="" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-target="#portNav"
+          aria-controls="NavbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="portNav">
+    <ul>
+      <li>home</li>
+      <li>page 1</li>
+      <li>page 2</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+document.querySelector(".navbar-toggler").addEventListener("click", function(e){
+
+    document.querySelector("#SpartanNavbar").classList.toggle("show");
+
+});
+</script>
