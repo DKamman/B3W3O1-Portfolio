@@ -22,3 +22,8 @@
   width: 256px;
   height: 256px;
 }
+
+#footerBot footer{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
