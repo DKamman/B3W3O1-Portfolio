@@ -1,17 +1,19 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Rajdhani', sans-serif;
 }
 
-.naviBar{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+p{
+  color:white;
+  font-family: 'Michroma', sans-serif;
 }
+
+          /* Landing page */
 
 #beginpage{
   height:100vh;
 }
+
 #logospin{
   width: 256px;
   margin: 0 auto;
@@ -23,7 +25,29 @@
   height: 256px;
 }
 
-#footerBot footer{
+          /* Navigation Bar */
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 3em;
+}
+
+.nav-item{
+  font-family: 'Raleway', sans-serif;
+  border: solid transparent;
+  border-width: 0px 0px 5px 0px;
+  margin-right: 5em;
+}
+
+.nav-item:hover{
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: yellow;
+}
+
+          /* Footer */
+
+footer{
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
 }
