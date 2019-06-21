@@ -4,8 +4,16 @@
 }
 
 p{
-  color:white;
+  color:black;
   font-family: 'Michroma', sans-serif;
+}
+
+#mainpage{
+  height: 100vh;
+}
+
+.mainparagraph{
+  margin: auto 0;
 }
 
           /* Landing page */
@@ -28,20 +36,28 @@ p{
           /* Navigation Bar */
 
 .navbar-brand{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   margin-left: 3em;
+}
+
+.navbar-brand i{
+  color: yellow;
 }
 
 .nav-item{
   font-family: 'Raleway', sans-serif;
   border: solid transparent;
-  border-width: 0px 0px 5px 0px;
+  border-width: 0px 0px 2px 0px;
   margin-right: 5em;
+  cursor: default;
 }
 
 .nav-item:hover{
+  color: yellow;
+  transition: border 0.5s ease;
   border-style: solid;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 2px 0px;
   border-color: yellow;
 }
 

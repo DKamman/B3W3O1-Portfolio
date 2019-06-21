@@ -19,11 +19,10 @@
   <body>
     <?php include "inc/nav.html" ?>
 
-    <div class="container-fluid">
-      <img style="position: absolute; top: 0; left:0; z-index: -30; width: 100vw;" src="img/placeholderbanner.png" alt="banner">
+    <div id="mainpage" class="container-fluid">
       <div class="row container mx-auto">
         <div class="col-md">
-          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p class="mainparagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
