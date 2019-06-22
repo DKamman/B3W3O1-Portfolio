@@ -1,3 +1,8 @@
-<div id="footerBot" class="container-fluid fixed-bottom">
-  <footer class="text-center">© Danny Kamman - <?php echo date("Y");?></footer>
-</div>
+<footer class="text-center"><b>Danny Kamman</b> ©
+  <?php if (date("Y") >= '2020') {
+    echo '2019 - ' , date("Y");
+  }else{
+    echo date("Y");
+  } ?>
+
+</footer>
