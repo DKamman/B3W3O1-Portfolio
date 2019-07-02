@@ -17,18 +17,44 @@
     <title>DK - Portfolio</title>
   </head>
   <body>
-    <?php include "inc/nav2.html" ?>
+
+    <header>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <span><a id="navbar-brand" class="navbar-brand">Danny Kamman - Portfolio</a></span>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.php">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.php">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">OVER MIJ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
 
     <div class="container-fluid">
       <div class="row">
 
         <div class="col-sm">
           <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="img/portfolio/testsite.png" alt="Card image cap">
+            <img class="card-img-top" src="img/portfolio/lingo.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Lingo</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">Go somewhere</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">Meer info</button>
             </div>
           </div>
           <!-- Modal -->
@@ -46,7 +72,6 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
@@ -57,11 +82,11 @@
 
         <div class="col-sm">
           <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img class="card-img-top" src="img/portfolio/planningtool.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">Go somewhere</button>
+              <h5 class="card-title">Planningtool</h5>
+              <p class="card-text">Planningtool is een opdracht uit blok 3. Tijdens deze opdracht leerde we CRUD en hoe je een database kan aanspreken via PHP op je webpagina</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">Meer info</button>
             </div>
           </div>
           <!-- Modal -->
@@ -79,7 +104,6 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
@@ -90,9 +114,9 @@
 
         <div class="col-sm">
           <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img class="card-img-top" src="img/portfolio/adventuregame.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Adventure Game</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal3">Go somewhere</button>
             </div>
@@ -112,7 +136,6 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>

@@ -17,7 +17,33 @@
     <title>DK - Contact</title>
   </head>
   <body>
-    <?php include "inc/nav2.html" ?>
+
+    <header>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <span><a id="navbar-brand" class="navbar-brand">Danny Kamman - Contact</a></span>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.php">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.php">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">OVER MIJ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
 
     <div class="container">
       <form action="/examples/actions/confirmation.php" method="post">
