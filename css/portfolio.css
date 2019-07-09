@@ -64,3 +64,15 @@ footer{
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
 }
+
+.card{
+  min-height: 32em;
+  width: 30em;
+  margin-bottom: 1em;
+}
+
+.card button{
+  position: absolute;
+  left: 1.2em;
+  bottom: 1.2em;
+}
