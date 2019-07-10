@@ -24,7 +24,7 @@
     <?php include "inc/nav.html" ?>
 
     <div id="mainpage" class="container-fluid">
-      <div class="row container mx-auto">
+      <div class="row container mx-auto" style="height:100vh;">
         <div class="col-md">
           <div id="maintext">
             <p>Welkom op mijn portfolio site.
@@ -38,7 +38,9 @@
           </div>
         </div>
         <div class="col-md">
-          <img src="img/placeholderface.png" alt="face">
+          <div id="mainimage">
+            <img class="img-fluid" style="max-width: 100%;" src="img/placeholderface.png" alt="face">
+          </div>
         </div>
 
       </div>

@@ -21,6 +21,11 @@ p{
   position: absolute;
   top: 25%;
 }
+
+#mainimage{
+  position: absolute;
+  top: 10%;
+}
           /* Landing page */
 
 #beginpage{
