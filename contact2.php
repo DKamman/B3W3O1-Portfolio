@@ -34,6 +34,9 @@
               <a class="nav-link" href="portfolio.php">PORTFOLIO</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="about.php">OVER MIJ</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
           </ul>
@@ -43,31 +46,34 @@
     </header>
 
     <div class="container">
-      <div style="margin: 0 auto;">
-        <table width="500">
-          <tr>
-            <th>Contact Gegevens</th>
-          </tr>
-          <tr>
-            <td>Danny Kamman</td>
-            <td>Kamman.Danny@gmail.com</td>
-          </tr>
-        </table>
-      </div>
+      <form action="/examples/actions/confirmation.php" method="post">
+		<h2>Register</h2>
+		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
+        <div class="form-group">
+			<div class="row">
+				<div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+				<div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+			</div>
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>
+        <div class="form-group">
+			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+        </div>
+    </form>
     </div>
 
-    <div class="container-fluid fixed-bottom" style="background-color:yellow; height: 2.2em; line-height: 2.2em;">
-        <footer class="text-center">
-          <span>
-            <b>Danny Kamman</b> ©
-            <?php if (date("Y") >= '2020') {
-              echo '2019 - ' , date("Y");
-            }else{
-              echo date("Y");
-            } ?>
-          </span>
-        </footer>
-    </div>
+    <?php include "inc/footer.php" ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
