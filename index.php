@@ -26,10 +26,16 @@
     <div id="mainpage" class="container-fluid">
       <div class="row container mx-auto">
         <div class="col-md">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div id="maintext">
+            <p>Welkom op mijn portfolio site.
+
+              Mijn naam is Danny Kamman, <?php echo "22" ?> jaar. Ik ben een Applicatie- en Mediaontwikkelaar in opleiding aan het Davinci College in Dordrecht.
+              Ik zit in mijn <?php echo "eerste" ?> jaar. <br><br>
+              Met de kennis die ik hier op doe zou ik graag aan de slag willen als Front-end en Back-end Developer.
+              Mijn passie daarintegen ligt het meest bij de Front-end, bij het webdevelopen. Ook op mobiele platformen.<br><br>
+              Op de <a href="portfolio.php" id="portlink"><i>Portfolio</i></a> pagina worden een aantal van mijn school projecten weergeven.
+            </p>
+          </div>
         </div>
         <div class="col-md">
           <img src="img/placeholderface.png" alt="face">

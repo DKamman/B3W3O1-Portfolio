@@ -5,13 +5,22 @@
 
 p{
   color: black;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Raleway', sans-serif;
 }
 
 #mainpage{
-  height: 50vh;
+  height: 90vh;
 }
 
+#portlink{
+  color: orange;
+  text-decoration: underline;
+}
+
+#maintext{
+  position: absolute;
+  top: 25%;
+}
           /* Landing page */
 
 #beginpage{
@@ -54,16 +63,12 @@ p{
   border-color: yellow;
 }
 
-          /* Footer */
 
-footer{
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
+          /* Portfolio */
 
 .card{
   min-height: 32em;
-  width: 30em;
+  min-width: 30em;
   margin-bottom: 1em;
 }
 
@@ -71,4 +76,19 @@ footer{
   position: absolute;
   left: 1.2em;
   bottom: 1.2em;
+}
+
+.modal-body{
+  margin: 0 auto;
+}
+
+.modaltext{
+  margin-top: 1em;
+}
+
+          /* Footer */
+
+footer{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
