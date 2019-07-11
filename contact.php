@@ -53,7 +53,7 @@
           </tr>
           <tr>
             <td>Danny Kamman</td>
-            <td>Kamman.Danny@gmail.com</td>
+            <td>DKamman@DannyKamman.com</td>
           </tr>
         </table>
       </div>
