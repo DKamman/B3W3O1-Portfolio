@@ -23,8 +23,8 @@
 
     <?php include "inc/nav.html" ?>
 
-    <div id="mainpage" class="container-fluid">
-      <div class="row container mx-auto" style="height:100vh;">
+    <div id="mainpage" class="container-fluid mb-2">
+      <div class="row container mx-auto" style="height:85vh;">
         <div class="col-md">
           <div id="maintext">
             <p>Welkom op mijn portfolio site.
@@ -33,19 +33,21 @@
               Ik zit in mijn <?php echo "eerste" ?> jaar. <br><br>
               Met de kennis die ik hier op doe zou ik graag aan de slag willen als Front-end en Back-end Developer.
               Mijn passie daarintegen ligt het meest bij de Front-end, bij het webdevelopen. Ook op mobiele platformen.<br><br>
+              Ik ben inmiddels bekend met de programmeer talen PHP, JavaScript, SQL, HTML en CSS.<br><br>
               Op de <a href="portfolio.php" id="portlink"><i>Portfolio</i></a> pagina worden een aantal van mijn school projecten weergeven.
             </p>
           </div>
         </div>
         <div class="col-md">
-          <div id="mainimage">
-            <img class="img-fluid" style="max-width: 100%;" src="img/placeholderface.png" alt="face">
+          <div id="mainimage" class="text-center" style="height: 250px;">
+            <img class="rounded-circle img-fluid" style="max-width: 75%;" src="img/pasfoto2.jpg" alt="face">
           </div>
         </div>
 
       </div>
       <div class="row">
         <div class="container-fluid fixed-bottom" style="background-color:yellow; height: 2.2em; line-height: 2.2em;">
+          <div class="medialogo"><a href="https://www.linkedin.com/in/danny-kamman-651476145/" target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
             <footer class="text-center">
               <span>
                 <b>Danny Kamman</b> ©

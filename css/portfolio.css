@@ -18,14 +18,34 @@ p{
 }
 
 #maintext{
-  position: absolute;
-  top: 25%;
+  position: relative;
+  top: 15%;
 }
 
 #mainimage{
   position: absolute;
   top: 10%;
 }
+
+#mainimage img{
+  image-orientation: -90deg;
+}
+
+.medialogo{
+  position: absolute;
+  line-height: 2.2em;
+  left: 17%;
+
+}
+
+.medialogo a{
+  color: black;
+}
+
+.medialogo a:hover{
+  color: black;
+}
+
           /* Landing page */
 
 #beginpage{
