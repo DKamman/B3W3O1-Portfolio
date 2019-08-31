@@ -1,3 +1,29 @@
+<?php
+//date in mm/dd/yyyy format; or it can be in other formats as well
+$birthDate = "08/11/1996";
+//explode the date to get month, day and year
+$birthDate = explode("/", $birthDate);
+//get age from date or birthdate
+$age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+  ? ((date("Y") - $birthDate[2]) - 1)
+  : (date("Y") - $birthDate[2]));
+
+
+
+if (Date("d") >= 15 && Date("m") >= 07 && Date("Y") >= 2018) {
+  $schoolYear = "eerste";
+}
+if (Date("d") >= 15 && Date("m") >= 07 && Date("Y") >= 2019) {
+  $schoolYear = "tweede";
+}
+if (Date("d") >= 15 && Date("m") >= 07 && Date("Y") >= 2020) {
+  $schoolYear = "derde";
+}
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,31 +49,38 @@
 
     <?php include "inc/nav.html" ?>
 
-    <div id="mainpage" class="container-fluid mb-2">
-      <div class="row container mx-auto" style="height:85vh;">
-        <div class="col-md">
+    <div id="mainpage" class="container">
+      <div class="row">
+        <div class="col-md-6">
           <div id="maintext">
             <p>Welkom op mijn portfolio site.
 
-              Mijn naam is Danny Kamman, <?php echo "22" ?> jaar. Ik ben een Applicatie- en Mediaontwikkelaar in opleiding aan het Davinci College in Dordrecht.
-              Ik zit in mijn <?php echo "eerste" ?> jaar. <br><br>
-              Met de kennis die ik hier op doe zou ik graag aan de slag willen als Front-end en Back-end Developer.
-              Mijn passie daarintegen ligt het meest bij de Front-end, bij het webdevelopen. Ook op mobiele platformen.<br><br>
-              Ik ben inmiddels bekend met de programmeer talen PHP, JavaScript, SQL, HTML en CSS.<br><br>
+              Mijn naam is Danny Kamman, <?php echo $age; ?> jaar. Ik ben een Applicatie- en Mediaontwikkelaar in opleiding aan het Davinci College in Dordrecht.
+              Ik begin in september aan mijn <?php echo $schoolYear; ?> jaar. <br><br>
+              Met de kennis die ik hier op doe zou ik graag aan de slag willen als Front-end en Back-end Developer.<br><br>
+              Ik ben inmiddels bekend met de programmeer talen PHP, JavaScript, HTML en CSS.
+              Ook ben ik bekend met database management en SQL.<br><br>
               Op de <a href="portfolio.php" id="portlink"><i>Portfolio</i></a> pagina worden een aantal van mijn school projecten weergeven.
             </p>
-          </div>
-        </div>
-        <div class="col-md">
-          <div id="mainimage" class="text-center" style="height: 250px;">
-            <img class="rounded-circle img-fluid" style="max-width: 75%;" src="img/pasfoto2.jpg" alt="face">
+
+            <div class="medialogo">
+              <a href="https://www.linkedin.com/in/danny-kamman-651476145/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
           </div>
         </div>
 
+        <div class="col-md-6">
+          <div id="mainimage" class="text-center">
+            <img class="rounded-circle img-fluid" style="max-width: 75%;" src="img/pasfoto2.jpg" alt="face">
+          </div>
+        </div>
       </div>
+
+
       <div class="row">
         <div class="container-fluid fixed-bottom" style="background-color:yellow; height: 2.2em; line-height: 2.2em;">
-          <div class="medialogo"><a href="https://www.linkedin.com/in/danny-kamman-651476145/" target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
             <footer class="text-center">
               <span>
                 <b>Danny Kamman</b> ©

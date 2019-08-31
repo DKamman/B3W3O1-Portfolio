@@ -8,42 +8,13 @@ p{
   font-family: 'Raleway', sans-serif;
 }
 
-#mainpage{
-  height: 90vh;
-}
+
+
+              /* Homepage */
 
 #portlink{
   color: orange;
   text-decoration: underline;
-}
-
-#maintext{
-  position: relative;
-  top: 15%;
-}
-
-#mainimage{
-  position: absolute;
-  top: 10%;
-}
-
-#mainimage img{
-  image-orientation: -90deg;
-}
-
-.medialogo{
-  position: absolute;
-  line-height: 2.2em;
-  left: 17%;
-
-}
-
-.medialogo a{
-  color: black;
-}
-
-.medialogo a:hover{
-  color: black;
 }
 
           /* Landing page */
@@ -61,6 +32,23 @@ p{
   margin: auto;
   width: 256px;
   height: 256px;
+}
+
+.medialogo{
+ font-size: 2.5em;
+}
+
+.medialogo a{
+  color: grey;
+  -webkit-transition: color 0.5s ease-out;
+}
+
+.medialogo a:nth-child(2){
+  margin-left: 0.25em;
+}
+
+.medialogo a:hover:nth-child(2){
+  color: red;
 }
 
           /* Navigation Bar */

@@ -53,7 +53,7 @@
             <img class="card-img-top" src="img/portfolio/planningtool.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Planningtool</h5>
-              <p class="card-text"><i>"Planningtool"</i> is een opdracht uit blok 3. Je moest doormiddel van PHP en SQL een applicatie maken waarmee je kan plannen.</p>
+              <p class="card-text"><i>"Planningtool"</i> is een opdracht uit blok 3. Je moest door middel van PHP en SQL een applicatie maken waarmee je kan planningsitems kan maken. Deze werden opgeslagen en bijgehouden in een database.</p>
               <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#Modal1">Meer Info</button>
             </div>
           </div>
@@ -73,8 +73,8 @@
                     <span><img style="width: 49%; height: auto;" src="img/portfolio/planningtoolcode.png" alt="planningtool code"><span>
                   </div>
                     <p class="modaltext">
-                      Voor dit project moest je doormiddel van PHP en SQL een applicatie in elkaar zetten waar mensen evenementen mee kunnen plannen.
-                      Met deze opdracht werd er SQL geleerd en hoe je je database kan aanspreken doormiddel van CRUD en linken via PHP aan je webpagina.
+                      Voor dit project moest je door middel van PHP en SQL een applicatie in elkaar zetten waar mensen evenementen mee kunnen plannen. In dit geval een bordspel evenement.
+                      Met deze opdracht leerde je SQL gebruiken en hoe je je database kan aanspreken via PHP.
                     <p>
                 </div>
                 <div class="modal-footer">
@@ -134,7 +134,7 @@
             <img class="card-img-top" src="img/portfolio/adventuregame.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Adventure Game</h5>
-              <p class="card-text"><i>"Adventure Game"</i> is een project uit blok 2. Doormiddel van javascript moest je een meerkeuze spel maken.</p>
+              <p class="card-text"><i>"Adventure Game"</i> is een project uit blok 2. Doormiddel van JavaScript moest je een meerkeuze spel maken.</p>
               <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#Modal3">Meer Info</button>
             </div>
           </div>
@@ -154,7 +154,8 @@
                     <span><img style="width: 49%; height: auto;" src="img/portfolio/adventurecode.png" alt=""><span>
                   </div>
                   <p class="modaltext">
-                    Dit project was specifiek bedoeld om je kennis over JavaScript te testen. Het project bestaat daarom ook grotendeels uit Javascrit.
+                    Dit project was specifiek bedoeld om je kennis over JavaScript te testen. Het project bestaat daarom grotendeels uit JavaScript. Het is een meer keuze spel dat bestaat uit tien aparte levels.
+                    Aan de hand van welke keuze je maakt komen er verschillende scenario's op gang.
                   </p>
                 </div>
                 <div class="modal-footer">
@@ -193,7 +194,91 @@
                   </div>
                   <p class="modaltext">
                     Zoals de naam al laat blijken was de opdracht om het spel, Lingo, na te maken.
-                      Net zoals Adventure game bestaat dit project groten deels uit JavaScript.
+                      Net zoals Adventure game bestaat dit project vooral uit JavaScript. De applicatie kiest een woord uit een al aangemaakte lijst van woorden.
+                      Je krijgt de eerste letter te zien waarna je woorden moet gaan typen om het goede woord te raden. Als een letter op de verkeerde plek staat word het vak geel,
+                      klopt de letter dan word het vak oranje.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="row">
+
+        <div class="col-sm">
+          <div class="card mx-auto">
+            <img class="card-img-top" src="img/portfolio/grid.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Overall Grid</h5>
+              <p class="card-text"><i>"Overall Grid"</i> is een opdracht uit blok 1. De opdracht was om van een voorbeeld een website na te bouwen. Dit door middel van een grid.</p>
+              <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#Modal5">Meer Info</button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Overall Grid</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="modalimages text-center">
+                    <span><img style="width: 49%; height: auto;" src="img/portfolio/grid.png" alt="planningtool img"></span>
+                    <span><img style="width: 49%; height: auto;" src="img/portfolio/gridcode.png" alt="planningtool code"><span>
+                  </div>
+                    <p class="modaltext">
+                      Deze opdracht bestaat uit HTML en CSS. Het doel was om een website na te bouwen en daardoor te leren hoe je met een CSS grid werkt.
+                    <p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm">
+          <div class="card mx-auto">
+            <img class="card-img-top" src="img/portfolio/responsive.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Website</h5>
+              <p class="card-text"><i>"Responsive Website"</i> is een project uit blok 2. Net zoals Overall Grid was het de bedoeling om een website na te maken, alleen deze keer responsive.</p>
+              <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#Modal6">Meer Info</button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Responsive Website</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="modalimages text-center">
+                    <span><img style="width: 49%; height: auto;" src="img/portfolio/responsive.png" alt="planningtool img"></span>
+                    <span><img style="width: 49%; height: auto;" src="img/portfolio/responsivecode.png" alt=""><span>
+                  </div>
+                  <p class="modaltext">
+                    Het doel van deze opdracht was om  een responsive website te creëren met behulp van alle kennis die je voorafgaand hebt vergaard.
+                    De website en binnen liggende elementen moesten zich ordenen liggend aan de grote van het scherm of venster.
+                    De opdracht bestaat uit HTML, CSS en JavaScript.
                   </p>
                 </div>
                 <div class="modal-footer">
